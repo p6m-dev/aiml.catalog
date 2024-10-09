@@ -1,0 +1,88 @@
+---
+description: "AIML Catalog"
+authors: ["Jimmie Fulton>"]
+languages: []
+frameworks: []
+tags: []
+
+requires:
+  archetect: "2.0.0-ALPHA.10"
+
+entries:
+  - archetype:
+      description: "AI Agent as a Service"
+      source: git@github.com:p6m-dev/python-chatbot.archetype.git
+      answers:
+        menus:
+          - menu_name: "AI Agent App"
+            menu_options: [
+              "Streamlit Frontend",
+              "Custom Frontend",
+            ]
+          - menu_name: "Copilots"
+            menu_options: [
+              "Synthetic Persona",
+              "Search Copilot",
+              "Social Copilot",
+              "News Copilot",
+              "Financial Copilot",
+              "Earnings Call Copilot",
+              "Stock Copilot",
+            ]
+          - menu_name: "LLM Models"
+            menu_options: [
+              "OpenAI (GPT 3.5, GPT 3.5 Turbo, GPT4, GPT 4 Turbo, GPT 4 Vision)",
+              "Mistral AI (7b, 8x7b, Large)",
+              "Llama2 (7b, 13b, 70b)",
+              "Codellama (7b, 13b, 70b)",
+            ]
+          - menu_name: "Embedding Models"
+            menu_options: [
+              "Open Source Embedding Model (bge small, bge large)",
+              "OpenAI Embedding Model",
+            ]
+          - menu_name: "Agent Modules (RAGs)"
+            menu_options: [
+              "Multi Document Agent",
+              "ReAct Agent",
+              "Chain of Thought",
+              "Graph of Thought",
+              "SQL Agents",
+              "Pandas Agent",
+              "Search Agent",
+            ]
+          - menu_name: "Vector Database"
+            select_type: "single"
+            menu_options: [
+              "Pinecone",
+              "Weviate",
+              "Chroma",
+            ]
+          - menu_name: "Knowledge Graph"
+            select_type: "single"
+            menu_options: [
+              "Neo4j",
+              "Amazon Neptune",
+              "Azure Cosmos DB",
+            ]
+          - menu_name: "Data Adaptor"
+            menu_options: [
+              "Glue",
+              "S3 / Blob storage",
+              "B2B Connectors (e.g. Salesforce, Zendesk, Hubspot etc.)",
+            ]
+  - archetype:
+      description: "LLM as a Service"
+      source: git@github.com:p6m-dev/python-project-scaffolding.archetype.git
+  - archetype:
+      description: "ML Model as a Service"
+      source: git@github.com:p6m-dev/python-project-scaffolding.archetype.git
+  - archetype:
+      description: "AI Studios"
+      source: git@github.com:p6m-dev/python-project-scaffolding.archetype.git
+  - archetype:
+      description: "MLOps / LLM Ops"
+      source: git@github.com:p6m-dev/python-project-scaffolding.archetype.git
+  - archetype:
+      description: "Metaflow Orchestration"
+      source: git@github.com:p6m-dev/python-metaflow-project.archetype.git
