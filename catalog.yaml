@@ -31,7 +31,7 @@ entries:
             ]
           - menu_name: "LLM Models"
             menu_options: [
-              "OpenAI (GPT 3.5, GPT 3.5 Turbo, GPT4, GPT 4 Turbo, GPT 4 Vision)",
+              "OpenAI (GPT4, GPT 4 Turbo, GPT 4 Vision)",
               "Mistral AI (7b, 8x7b, Large)",
               "Llama2 (7b, 13b, 70b)",
               "Codellama (7b, 13b, 70b)",
