@@ -33,7 +33,8 @@ entries:
             menu_options: [
               "OpenAI (GPT4, GPT 4 Turbo, GPT 4 Vision)",
               "Mistral AI (7b, 8x7b, Large)",
-              "Llama2 (7b, 13b, 70b)",
+              "Llama3.1 (8b, 70b, 405b)",
+              "Llama3.2 (1b, 3b, 11b, 90b)",
               "Codellama (7b, 13b, 70b)",
             ]
           - menu_name: "Embedding Models"
