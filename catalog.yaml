@@ -76,6 +76,9 @@ entries:
       description: "LLM as a Service"
       source: git@github.com:p6m-dev/python-project-scaffolding.archetype.git
   - archetype:
+      description: "Multi Step AI Agent"
+      source: git@github.com:p6m-dev/python-multi-step-agent.archetype.git
+  - archetype:
       description: "ML Model as a Service"
       source: git@github.com:p6m-dev/python-project-scaffolding.archetype.git
   - archetype:
